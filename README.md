@@ -1,125 +1,171 @@
 NORMA: 
 
-220501095 Diseñar la solución de software de acuerdo con especificaciones de diseño y marcos de referencia.
+220501096 Desarrollar solución de software de acuerdo con especificaciones de diseño y marcos de referencia.
 Señor candidato: La prueba consiste en enunciados (textos que describen problemas, situaciones, casos, etc.) distinguidos con números, cada uno cuenta con cuatro opciones de respuesta identificados con las letras A, B, C y D, donde sólo una responde a la pregunta. Seleccione el óvalo que considere responde a la pregunta.
-Tiempo asignado para la prueba: 35 Minutos.
+Tiempo asignado para la prueba: 40 Minutos.
 
-1. En una compañía de software especializada en ERPs, se debe validar la arquitectura de un módulo de inventarios, siendo fundamental
-A. aprobar la arquitectura sin verificar la sincronización de inventarios.
-B. dejar la actualización de stock para un proceso manual del usuario.
-C. revisar componentes, las restricciones y la comunicación entre módulos de facturación para mantener stock en tiempo real.
-D. prescindir de la arquitectura multicapa y centralizar todo en un solo módulo.
+1. La marcación de ambientes de desarrollo y la calidad del producto del software es fundamental para la satisfacción del usuario y el éxito del proyecto. En ese sentido, el modelo de calidad del software es un conjunto de características que se utilizan para evaluar la calidad del mismo y para llevar a cabo aquellas funciones requeridas para satisfacer las necesidades de los usuarios en un periodo de tiempo o número de operaciones. Lo anterior, hace referencia a la capacidad de
+A. eficiencia.
+B. portabilidad.
+C. usabilidad.
+D. fiabilidad.
 
-2. Un diseñador de software debe estructurar la interfaz de usuario para una aplicación móvil, asegurando una experiencia intuitiva para los usuarios. Para lograrlo, debe basarse en principios de usabilidad y diseño de interfaces gráficas, teniendo en cuenta un diseño
-A. de accesibilidad únicamente para personas con discapacidad.
-B. de colores y fuentes sin coherencia visual.
-C. que incluya demasiados botones en la misma pantalla sin jerarquía visual.
-D. de una interfaz con navegación intuitiva y elementos visuales organizados.
+2.  Una consulta en base de datos es el método para acceder a los datos de tal manera que se pueden modificar, borrar, obtener y agregar datos a partir de unos criterios de aceptación. En ese sentido, para una solución de software que requiere obtener el promedio de un conjunto de datos, el desarrollador debe utilizar la consulta de
+A. agregación.
+B. relación.
+C. intersección.
+D. composición.
 
-3.  Un equipo de desarrollo está trabajando en la creación de un sistema de información para una entidad gubernamental. Uno de los requisitos fundamentales es garantizar la seguridad de la información mediante el cumplimiento de estándares internacionales. Dado lo anterior, es necesario
-A. permitir acceso libre a la base de datos sin autenticación.
-B. implementar autenticación multifactor y cifrado.
-C. usar contraseñas estáticas sin expiración.
-D. no realizar auditoría de accesos.
+3.  En el desarrollo de una solución de software es necesario listar tareas de acuerdo con el tipo de solución, lo que hace que cuando se esté trabajando en ésta, surjan problemas de colaboración y gestión del código debido a la falta de un sistema conforme con las necesidades. Ante esta situación, el desarrollador de software debe seleccionar un entorno que facilite el trabajo simultáneamente en un mismo proyecto, por lo cual se decide por un entorno de
+A. desarrollo integrado (IDE).
+B. desarrollo de pruebas (Test Environment).
+C. gestión de bases de datos (DBMS).
+D. control de versiones (VCS).
 
-4.  En un proyecto de comercio minorista, se define el diseño navegacional para una aplicación de control deinventarios. Para garantizar un flujo eficiente y evitar la duplicación de datos en pedidos y devoluciones, se debe
-A. omitir diagramas de secuencia y asumir que el flujo es correcto.
-B. crear diagramas de secuencia que reflejen las interacciones esperadas entre objetos.
-C. mezclar las funcionalidades de pedidos y devoluciones en un solo diagrama ambiguo.
-D. basarse únicamente en la estructura de la base de datos para asumir la lógica del proceso.
+4.  En programación orientada a objetos, existen diferentes tipos de atributos que permiten controlar el nivel de acceso y la visibilidad de los datos, lo que contribuye a la encapsulación y seguridad de la solución de software y su correlación con los componentes técnicos. Cuando un atributo es privado, solo es accesible desde los métodos de la misma clase. En ese sentido, SI el desarrollador desea modificar el valor del atributo, debe utilizar el método
+A. get.
+B. set.
+C. Seth.
+D. getch.
 
-5.  En una empresa dedicada a la transformación digital, se construye un modelo de datos para un sistema CRM que manejará información de clientes y prospectos, siendo necesario establecer una herramienta de datos detallado y especificando el tipo de campo, la longitud y las validaciones para evitar inconsistencias en la información de contacto. Lo anterior, hace referencia a
-A. permitir que todos los campos sean de tipo texto sin validaciones.
-B. evitar la creación de un diccionario de datos para reducir la documentación.
-C. mezclar todos los tipos de campo sin especificar longitud ni restricciones.
-D. definir un diccionario de datos con tipos de campo y validaciones precisas.
+5.  En el ámbito del estándar de codificación, el equipo de desarrollo de software se enfrenta a decisiones de utilizar parámetros de referencia en las funciones. De acuerdo con lo anterior, en la empresa X el desarrollador de software implementa las siguientes líneas de instrucciones y la intención de este código es la de
+Acum = 0 
+Para i = 2 hasta 10 
+Acum = Acum + (5 * i + 1) 
+Imprima Acum
+A. calcular la serie, cuya suma ha de ser 279.
+B. mostrar la tabla del 5 incrementada en 1.
+C. C. calcular la serie, cuya suma ha de ser 285.
+D. mostrar la tabla del 5 junto a su acumulador.
 
-6.  En un equipo de desarrollo que sigue Scrum, se decide construir el modelo de datos de una aplicación para la gestión de backlog y sprints. Cada ítem de backlog está asociado a un sprint, y cada sprint puede tener varios ítems. Dado lo anterior, se definen claves foráneas y tablas intermedias para manejar esta relación, siendo necesario
-A. unir ítems y sprints en una sola tabla todo_en_uno.
-B. definir las relaciones y claves foráneas según la asociación de backlog y sprint.
-C. asignar varios sprints a un ítem sin separación de tablas.
-D. no contemplar las relaciones para reducir la complejidad de la base de datos.
+6.  Una solución de software puede requerir un flujo de datos como entrada y salida, así mismo, modificar y hacer todo tipo de acciones con los datos y correlacionar los componentes técnicos. Por consiguiente, en programación de software, en el contexto de la entrada de datos, el elemento que permite determinar el formato de la información al ser ingresada en un campo se denomina como
+A. integridad.
+B. restricción.
+C. máscara de entrada.
+D. normalización de entrada.
 
-7.  En un proyecto donde se desarrollan sistemas de transporte inteligente, se revisan los riesgos de la arquitectura de software para asegurar que la comunicación entre los microservicios (gestión de rutas, notificaciones de tráfico y ubicación de vehículos) sea estable y segura frente a posibles fallos de red. Por lo tanto, es imperativo 
-A. ignorar la resiliencia de la arquitectura ante fallos de red.
-B. analizar los riesgos y contemplar mecanismos de recuperación entre microservicios.
-C. unificar todos los servicios en un monolito para evitar la complejidad de la red.
-D. dejar la gestión de fallos a la etapa de mantenimiento.
+7.  En el contexto de la programación orientada a objetos, la cual se enfoca en la creación de objetos que interactúan entre sí para resolver problemas, se utilizan varias herramientas que facilitan la codificación, cumpliendo con los tiempos de entrega y los términos de referencia. En ese sentido, cuando el desarrollador trata el objeto teniendo en cuenta que es posible enviar mensajes sintácticamente iguales a los de tipos distintos, está haciendo uso de la propiedad denominada
+A. herencia.
+B. asociación.
+C. polimorfismo.
+D. agregación.
 
-8.  En una compañía que crea soluciones para el sector turístico, se define el diseño navegacional de una aplicación donde los usuarios pueden buscar paquetes de viaje y reservar hoteles. Para ello, se especifican diagramas de casos de uso que contemplan búsqueda, filtrado, selección y confirmación de pago, asegurando que cada ruta esté validada. Por lo tanto, es necesario
-A. implementar directamente las funciones sin crear casos de uso.
-B. mezclar todas las funciones (búsqueda, filtro, pago) en un solo proceso confuso.
-C. elaborar casos de uso que muestren las rutas de búsqueda y reserva.
-D. dejar que los usuarios descubran por ensayo y error cómo navegar la aplicación.
+8.  Considerando el ciclo de vida del desarrollo del software, el equipo debe tener en cuenta la priorización de las fases técnicas para asegurar la entrega exitosa de la solución. En relación con esto, en el modelo de procesos prescriptivos que incluyen cascada, lineal o clásico, el orden de las etapas es
+A. diseño, análisis de requerimientos, implementación, pruebas.
+B. análisis de requerimientos, diseño, implementación, verificación y mantenimiento.
+C. análisis de requerimientos, diseño, desarrollo, implementación.
+D. análisis de requerimientos, desarrollo, implementación, verificación y mantenimiento.
 
-9. En un proyecto de software educativo, se decide maquetar la interfaz de usuario de un módulo de exámenes en línea. Se aplican técnicas de experiencia de usuario para resaltar la pregunta actual, mostrar el progreso e indicar los minutos restantes de la prueba, garantizando claridad para el estudiante. Para cumplir con dicho objetivo, es necesario
-A. estacar la pregunta actual, el progreso y el tiempo restante en la interfaz.
-B. colocar el indicador de tiempo en una sección poco visible.
-C. mostrar todas las preguntas al mismo tiempo para obligar al estudiante a desplazarse.
-D. omitir el progreso para evitar distracciones.
+9.  En el proceso esencial del desarrollo de software, la codificación de sentencias se erige como un pilar fundamental que traduce la lógica del programador en instrucciones comprensibles para la máquina y moldea la base de la calidad y mantenibilidad del código resultante. Por consiguiente, Si en la empresa X el desarrollador de software desea implementar la codificación para publicar por pantalla la frase HOLA MUNDO diez veces utilizando una variable que la contenga y utiliza dentro de un ciclo FOR, la instrucción ha de tomar la siguiente forma
+A. para i=0 hasta 9 , imprima "HOLA MUNDO"
+B. para i=0 hasta 9 , imprima "VARHL "
+C. para i=0 hasta 10 , imprima "HOLA MUNDO"
+D. para i=0 hasta 11 , imprima "HOLA MUNDO"
 
-10.  En un proyecto para una puesta en marcha (startup) de e-learning, se maquetan interfaces de usuario enfocadas en la accesibilidad, se utilizan contrastes adecuados, tipografías claras y descripciones textuales para elementos gráficos, de modo que los usuarios con discapacidad visual o daltonismo puedan navegar sin barreras. Para cumplir con este propósito es fundamental
-A. ignorar la accesibilidad para ahorrar tiempo en el diseño.
-B. colocar información crucial solo en gráficos sin texto alternativo.
-C. reducir la legibilidad para forzar la adaptación del usuario.
-D. aplicar pautas de accesibilidad, asegurando tipografías, contrastes y textos alternativos.
+10.  En el ámbito del desarrollo de software, la estimación de insumos técnicos se vincula con la adaptabilidad necesaria para cumplir con criterios de aceptación y el tipo de solución. En relación con esto, el desarrollador de software debe abordar de manera efectiva esta tarea, alineándose con los principios ágiles que le permiten manejar la técnica de
+A. identificar detalladamente las tareas.
+B. aplicación de estimación por analogía.
+C. planificar basándose en el esfuerzo requerido.
+D. utilizar puntos de historia en la estimación.
 
-11.   En un equipo que utiliza Kanban, se construye el modelo de datos para un tablero de tareas. Cada tarjeta de tarea almacena información sobre el estado, el responsable y la prioridad. Se definen las tablas y los campos para reflejar los cambios de estado a lo largo del flujo de trabajo. para cumplir con este objetivo es esencial
-A. definir tablas y campos que reflejen estados y responsables actualizados.
-B. mantener todas las tareas en un único estado y sin responsable asignado.
-C. unificar todas las columnas del tablero en una sola tabla sin distinción de estado.
-D. almacenar la prioridad de forma textual y sin un campo específico.
+11.   En el contexto del desarrollo de software, la armonización de componentes técnicos, criterios de aceptación y la naturaleza de la solución son vitales para el éxito del proyecto. Al respecto, el desarrollador podría armonizar los componentes uno a uno, haciendo uso de la integración
+A. big bang.
+B. descendente.
+C. ascendente.
+D. creciente.
 
-12.  En una empresa que desarrolla software para call centers, se define el diseño navegacional del módulo de administración de agentes. Se especifican diagramas de casos de uso que contemplan la creación, desactivación y reasignación de agentes a distintas campañas, facilitando la gestión y evitando confusiones. Teniendo en cuenta lo anterior, se requiere elaborar diagramas de casos de uso, reflejar creación, desactivación y reasignación para
-A. mezclar la administración de agentes con la gestión de clientes en el mismo flujo.
-B. limitarse a un único caso de uso que englobe todas las operaciones.
-C. delegar la configuración de agentes a la base de datos sin interfaz.
-D. elaborar diagramas de casos de uso para reflejar creación, desactivación y reasignación.
+12.  La publicación de una solución de software debe realizarse de manera coherente con los criterios de aceptación y requisitos establecidos durante la fase de desarrollo, garantizando así que la solución cumpla con las expectativas y necesidades de los usuarios. En ese contexto, para la publicación, el desarrollador, puede hacer uso de una de las  prácticas más efectivas a cumplir con los criterios de aceptación y requisitos técnicos, como
+A. publicar la solución sin realizar pruebas adicionales.
+B. aplicar actualizaciones de manera aleatoria y sin planificar.
+C. realizar una publicación controlada, siguiendo un plan establecido.
+D. implementar nuevas funcionalidades sin notificar al equipo de soporte.
 
-13.   En una compañía que desarrolla soluciones móviles para telemedicina, se diseñan interfaces de video-consulta. Se destaca la importancia de la ergonomía en la disposición de los elementos visuales para los profesionales dela salud, ubicando la ventana de video y el panel de historial clínico de manera que se minimicen movimientos repetitivos y se cumpla con la normativa de salud ocupacional. Para garantizar el cumplimiento de este requerimiento, es fundamental
-A. obligar al profesional a cambiar constantemente de ventana para ver el historial clínico.
-B. diseñar la interfaz con ergonomía, reduciendo movimientos repetitivos y posturas forzadas.
-C. descartar la ergonomía para enfocarse solo en la estética.
-D. colocar la ventana de video en una sección secundaria que requiera desplazamiento constante.
+13.   En el desarrollo de software, la marcación de ambientes de desarrollo es crucial para asegurar una implementación fluida y consistente de código donde la eficiencia y la colaboración son fundamentales. En ese sentido, el equipo de desarrollo debe abordar prácticas de marcación de ambientes como
+A. las orientaciones manuales para la configuración del ambiente.
+B. las configuraciones locales de desarrolladores.
+C. la delegación de la tarea de marcación de ambientes a un equipo externo.
+D. la utilización de herramientas especializadas en la marcación del ambiente.
 
-14.  En una empresa de desarrollo de software, se definen políticas de respaldo para los repositorios de código fuente. Se desea proteger el avance de cada sprint en metodologías ágiles. Por tal motivo, se opta por
-A. no gestionar versiones, usando un único servidor sin copias locales.
-B. confiar en que cada desarrollador conserve su copia local sin una política global de respaldo.
-C. realizar commits frecuentes en un sistema de control de versiones y réplicas periódicas en repositorios remotos.
-D. archivar todo el código en un disco externo sin control de versiones ni historial de cambios.
+14.  La ratificación de tiempos de entrega en el marco de requerimientos de solución de software implica confirmar y ajustar los plazos de entrega establecidos en los términos de referencia. Esta acción busca alinear los tiempos con la naturaleza de la solución, considerando aspectos como la complejidad del desarrollo. En ese sentido, el desarrollador considera decisivo ratificar los tiempos en el desarrollo de software para
+A. seguir un cronograma rígido sin considerar cambios.
+B. establecer plazos de entrega más cortos y acelerar el desarrollo.
+C. ajustar plazos de entrega de acuerdo con la complejidad del proyecto.
+D. ignorar los términos de referencia y dar flexibilidad en la planificación.
 
-15.  En un hospital que maneja historiales clínicos electrónicos, el plan de respaldo de datos debe contemplar copias diarias para prevenir la pérdida de información crítica. Para asegurar la recuperación, es necesario
-A. realizar la copia de seguridad solo cuando surja un incidente de pérdida de datos.
-B. almacenar los respaldos en discos locales de cada estación de trabajo.
-C. programar respaldos automáticos diarios y pruebas periódicas de restauración para verificar su validez.
-D. utilizar formatos propietarios que no puedan abrirse con software estándar, aumentando la dificultad de recuperación.
+15.  En el ámbito de recursos tecnológicos, al estimar insumos técnicos para el desarrollo de software, se cuenta con buenas prácticas para que el desarrollador, al entender la importancia de abordar de manera integral los aspectos técnicos asociados con los requerimientos del usuario, pueda hacer una estimación precisa y efectiva. Lo anterior, se refleja en que
+A. la complejidad técnica no impacta la estimación de insumos.
+B. la estimación debe ajustarse según el tipo de solución y los criterios de aceptación.
+C. los criterios de aceptación no son relevantes en la estimación de insumos técnicos.
+D. los valores se basan exclusivamente en la experiencia del desarrollador.
 
-16. En un proyecto de software contable, se diagraman paquetes UML para agrupar clases relacionadas con facturación, contabilidad y reportes. Para mantener la organización y la escalabilidad del diseño, se hace necesario
-A. crear paquetes específicos por funcionalidad (facturación, contabilidad, reportes) y establecer sus relaciones de formaexplícita.
-B. incluir todas las clases en el paquete raíz para no complicar la estructura.
-C. mezclar clases de facturación y reportes en un paquete único, generando confusión en sus dependencias.
-D. duplicar clases en varios paquetes para que aparezcan en múltiples lugares.
+16. En el ámbito del desarrollo de software, la integración de componentes se relaciona con el diseño técnico y los estándares de codificación, para lo cual se busca establecer buenas prácticas aplicables al uso de un lenguaje de programación específico. Así, dentro del proceso de integración de componentes, una práctica fundamental para mantener la coherencia con el diseño técnico y los estándares de codificación es
+A. seguir principios de diseño que susciten la modularidad.
+B. utilizar convenciones de estilo para permitir flexibilidad.
+C. documentar exhaustivamente cada línea de código.
+D. realizar pruebas unitarias que promuevan la modularidad.
 
-17.  En una empresa de seguridad digital, se implementa un procedimiento de respaldo de información para todos los servidores de aplicaciones. Para cumplir con los lineamientos de seguridad informática, se indica que
-A. los respaldos se efectúen de forma periódica, con encriptación y almacenamiento en ubicaciones físicas separadas.
-B. se realice un único respaldo al año sin verificar su integridad.
-C. se almacene la copia de seguridad en la misma carpeta del sistema productivo.
-D. no se realicen copias de seguridad para evitar costos de almacenamiento.
+17.  En el ámbito de lenguaje de programación de software y considerando el uso de parámetros de referencia en el contexto de programación orientada a objetos, el desarrollador puede incorporar la relación jerárquica entre clases padre e hijo. Lo anterior, corresponde a
+A. polimorfismo.
+B. agregación.
+C. herencia.
+D. encapsulamiento.
 
-18.  En un centro de datos de gran tamaño, la organización debe cumplir con la normativa ambiental local. Para minimizar el impacto en la huella de carbono, se establece
-A. descartar cualquier plan de refrigeración eficiente para no asumir costos adicionales.
-B. implementar sistemas de enfriamiento con eficiencia energética y monitorear el PUE (Power Usage Effectiveness).
-C. ubicar el centro de datos en una zona sin acceso a energía renovable.
-D. permitir fugas de refrigerante sin inspección técnica.
+18.  En el proceso de desarrollo de software, la selección de casos de prueba desempeña un papel crítico para garantizar parámetros de calidad. Esta elección debe alinearse estratégicamente con el plan de pruebas y los criterios de aceptación del producto. Por lo tanto, el desarrollador, en el ejercicio de seleccionar casos de prueba para asegurar los parámetros de calidad, hace uso de la práctica que refleja una alineación efectiva con el plan de pruebas y los criterios de aceptación, la cual es
+A. centrarse únicamente en las rutas de código más utilizadas.
+B. seleccionar casos de prueba basados en la complejidad del código.
+C. ignorar los criterios de aceptación y centrarse en la funcionalidad principal.
+D. desarrollar casos de prueba que aborden requisitos críticos del usuario.
 
-19. En una empresa que desarrolla hardware para IoT, se generan residuos electrónicos (e-waste). Para cumplir la normativa ambiental, se adopta un plan de manejo que implica 
-A. contratar servicios de recolección especializada y reciclar los componentes electrónicos conforme a la legislación.
-B. desechar los dispositivos en contenedores comunes junto con residuos orgánicos.
-C. almacenar los residuos electrónicos indefinidamente en un depósito sin control.
-D. quemar los dispositivos en un área abierta para disminuir el volumen de desechos.
+19. Dentro del marco de parámetros de calidad de productos de software, la consulta de datos es un aspecto crítico que debe estar acorde con criterios de aceptación y el tipo de solución implementada. En este contexto, una buena práctica en la consulta de datos que refleja una alineación efectiva con criterios de aceptación y el tipo de solución, es
+A. evitar la consulta de datos para minimizar la carga en el sistema.
+B. utilizar una consulta compleja para obtener información en un solo paso.
+C. recopilar todos los datos disponibles, independientemente de su relevancia.
+D. diseñar consultas que aborden requisitos específicos del usuario.
 
-20.  En una empresa proveedora de servicios en la nube, se implementa una política de “Datacenter Verde” que disminuye el impacto ambiental de sus operaciones. Para alinearse con la normativa ambiental y las buenas prácticas, es necesario
-A. no medir la temperatura y la humedad de los servidores, dejando el consumo energético al azar.
-B. monitorizar de forma constante los parámetros ambientales y regular la climatización para optimizar el consumo,minimizando emisiones.
-C. ubicar el datacenter en zonas con alta temperatura sin sistemas de refrigeración para ahorrar costos.
-D. no invertir en tecnologías de virtualización para mantener equipamiento físico redundante.
+20.  La detección de vulnerabilidades es crucial para garantizar la integridad, confidencialidad y disponibilidad de los datos en una solución de software. Por consiguiente, abordar los riesgos de la solución de software en el proceso de gestión de información requiere utilizar técnicas de detección preventiva como
+A. tecnologías sin aprobar o incompatibles.
+B. código de baja calidad o eficiencia.
+C. cambios de la dirección del proyecto.
+D. problemas de usabilidad.
+
+21. Las notificaciones de avances son comunicaciones que informan sobre el progreso, los logros y posiblemente los desafíos enfrentados durante el proceso, alineados con el protocolo de comunicación establecido y el cronograma del proyecto. De acuerdo con lo anterior, para el caso del desarrollo de un sistema de gestión de recursos humanos de una empresa, una de las prácticas de notificación de avances de desarrollo de software, que está acorde con el protocolo de comunicación y el cronograma del proyecto, es
+A. evaluar la frecuencia de las notificaciones según el progreso del proyecto, adaptándolas a las necesidades del equipo y protocolo.
+B. enviar notificaciones de avances de manera regular, pero sin ajustarse a lo establecido.
+C. anunciar avances solo cuando hay cambios significativos, independientemente del cronograma establecido.
+D. implementar notificaciones regulares al equipo y partes interesadas.
+
+22. En el desarrollo de un sistema de gestión de contenido para una editorial, la gestión de usuarios e información y la generación de informes debe ser cuidadosamente planificada para optimizar la eficiencia del desarrollo y garantizar la coherencia del sistema. Por tal razón, el desarrollador debe
+A. agrupar todos los módulos en un único componente monolítico.
+B. realizar la distribución de módulos solo al final del ciclo de desarrollo.
+C. distribuir los módulos arbitrariamente sin considerar su funcionalidad.
+D. dividir los módulos según su funcionalidad y agruparlos en componentes.
+
+23. En el entorno del desarrollo de software, el cambio de posturas corporales puede abordarse desde la perspectiva de la seguridad y salud en el trabajo (SST). Por lo tanto, el programador debe seguir una práctica que contribuye a evitar riesgos relacionados con el cambio de posturas, la cual es
+A. utilizar sillas ergonómicas y ajustables sin necesidad de pausas activas.
+B. realizar ajustes ergonómicos en el entorno de trabajo sin recibir formación específica.
+C. seguir algunas recomendaciones ergonómicas irrelevantes para el desarrollo de software.
+D. adoptar pausas activas y ejercicios de estiramiento regularmente durante las jornadas de trabajo.
+
+24. Dentro del marco de inglés técnico de software, las especificaciones de código fuente están estrechamente relacionadas con los procedimientos de calidad y marcos de desarrollo. En este contexto, se busca analizar las especificaciones del código fuente en HTML, el cual representa 
+
+<ol>
+<li>tecnólogos</li>
+<li>pensadores</li> <li>constructores</li>
+</ol>  
+
+A. una lista desordenada.
+B. una lista ordenada.
+C. unos párrafos anidados.
+D. unos datos de una tabla.
+
+25. Existe un escenario donde un desarrollador de software, enfrentando barreras de idioma en inglés, necesita realizar consultas de datos para evaluar una solución. El desconocimiento del idioma podría impactar en la precisión y calidad de las consuL105:O108ltas (consultas), considerando los criterios técnicos. De acuerdo con lo anterior, la afirmación más acorde con la situación del programador es
+A. la barrera del idioma podría influir en la eficacia de las consultas, pero los criterios de aceptación no se verían afectados.
+B. dada la dificultad con el idioma, se recomendaría que el desarrollador se enfoque solo en la codificación y omita las consultas de datos.
+C. la limitación en el dominio del inglés podría generar interpretaciones equivocadas de los criterios de aceptación, impactando la efectividad de las consultas.
+D. aunque el desarrollador no entienda inglés, la calidad de las consultas no se verá afectada, ya que se basa principalmente en la lógica de programación.
+
+26. En el contexto de solicitar la validación de un producto de software, la utilización de herramientas colaborativas digitales es decisiva para la gestión de los proyectos de software. En ese sentido, la situación efectiva en la disposición de las herramientas colaborativas con los procedimientos técnicos y marcos de referencia se debe a que estas son
+A. independientes de los procesos técnicos y marcos de referencia, por lo cual la alineación es irrelevante.
+B. esenciales solo para la gestión de proyectos, no para procesos específicos como la solicitud de validación.
+C. dependientes de los procesos técnicos y marcos de referencia, por lo cual la alineación debe ser garantizada.
+D. cruciales para los marcos de referencia, pero los procedimientos técnicos no impactan significativamente en lautilización de estas.
